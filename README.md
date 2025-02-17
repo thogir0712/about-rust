@@ -311,8 +311,6 @@ Let's learn some more about `char`. You saw that a `char` is always one characte
 All `chars` use 4 bytes of memory, since 4 bytes are enough to hold any kind of character:
 - Basic letters and symbols usually need 1 out of 4 bytes: `a b 1 2 + - = $ @`
 - Other letters like German Umlauts or accents need 2 out of 4 bytes: `ä ö ü ß è é à ñ`
-- Korean, Japanese or Chinese characters need 3 or 4 bytes: `国 안 녕`
-
 When using characters as part of a string, the string is encoded to use the least amount of memory needed for each character.
 
 We can use `.len()` to see this for ourselves:
